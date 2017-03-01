@@ -136,122 +136,87 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
     </item>
     
     <item>
-      <title>Around By Area</title>
+      <title>Sally Goes to Spain???</title>
       <link>//osmlab.github.io/learnoverpass/en/exercises/intro/8/</link>
       <pubDate>Wed, 08 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/8/</guid>
-      <description>&lt;p&gt;“Wooh, At least I know now where the observatory is!” says Bob.&lt;/p&gt;
+      <description>&lt;p&gt;Huh&amp;hellip; so it looks like CARTO is in Madrid! Sally is very worried that she misread the MeetUp and accidentally went to CARTO Brooklyn instead of CARTO Madrid. But wait! This is where we learn that there are things other than nodes that exist in OpenStreetMap. Obviously, there are polygons and lines! In OSM-speak, these are called &lt;strong&gt;ways&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Seeing the distance between them though, Bob is quite flustered. That’s quite a long way!&lt;/p&gt;
-
-&lt;p&gt;Luckily, Bob remembers leaving his bicycle in the nearest parking space. Let’s go ahead and query for Bob’s bike!&lt;/p&gt;
+&lt;p&gt;To be continued&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>By Area</title>
+      <title>Donuts to CARTO!</title>
       <link>//osmlab.github.io/learnoverpass/en/exercises/intro/7/</link>
       <pubDate>Tue, 07 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/7/</guid>
-      <description>&lt;p&gt;“Bingo!” Bob says as he walks towards the restaurant.&lt;/p&gt;
+      <description>&lt;p&gt;Great, you found three cafes! Sally heads into Dunwell Doughnuts to end the rumblings in her stomach.&lt;/p&gt;
 
-&lt;p&gt;See how powerful the Overpass QL is in querying OSM data? It has a plethora of different filters and statements, and combining them with each other can create even more specific queries for your use cases.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s recap what we&amp;rsquo;ve learned so far:&lt;/p&gt;
 
-&lt;p&gt;Our previous example introduces a very important metaphor in the Overpass Query Language, which is ‘flow’. A good way to think of the Overpass API is that it allows OSM data (nodes, etc.) to be generated and modified as it ‘flows’ from one statement to another. &lt;/p&gt;
-
-&lt;p&gt;As a concrete example, our bounding box query (the lat/lon points) finds the nodes in that area. The resulting data will then ‘flow’ and get filtered &lt;code&gt;[natural=tree]&lt;/code&gt;, &lt;code&gt;[height=20]&lt;/code&gt;, etc.&lt;/p&gt;
-
-&lt;p&gt;If you notice, &lt;code&gt;(around:n)&lt;/code&gt; works the same way, in that our initial data flows in it, and gets modified to show the nodes around the initial data that is produced by our first line.&lt;/p&gt;
-
-&lt;p&gt;“Wow!” Bob exclaims, “That was a very good meal!”&lt;/p&gt;
-
-&lt;p&gt;“That would be 25 Euros sir” says the waiter, dressed in an all white attire.&lt;/p&gt;
-
-&lt;p&gt;“Coming right up!” Bob says proudly, when&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;“Uh oh! I seem to have left my wallet at the observatory!”&lt;/p&gt;
-
-&lt;p&gt;Flustered, Bob ran outside the restaurant, hoping to get back to his wallet.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Query for nodes (aka points) in areas using both bounding boxes and &lt;code&gt;(around:n)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Filter by &lt;code&gt;[key=value]&lt;/code&gt; tags&lt;/li&gt;
+&lt;li&gt;Use regular expressions to find non-exact tag values&lt;/li&gt;
+&lt;li&gt;Chain together multiple query statements&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
     <item>
-      <title>Filter by Tag III</title>
+      <title>Around and Around We Go!</title>
       <link>//osmlab.github.io/learnoverpass/en/exercises/intro/6/</link>
       <pubDate>Mon, 06 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/6/</guid>
-      <description>&lt;p&gt;“Woah, great! I see a lot of nodes around me, but there are too many, and I’m not sure which are the restaurants!&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;We used the &lt;code&gt;around&lt;/code&gt; filter on our previous example to query for nodes around our particular node, and it worked! As you can see on the map viewer, we see the OSM data around our first statement.&lt;/p&gt;
-
-&lt;p&gt;However, it’s quite problematic - we haven’t actually found any restaurants, and there are too many nodes!&lt;/p&gt;
-
-&lt;p&gt;Again, we will use the concept that we learned earlier to further filter our data. &lt;code&gt;around&lt;/code&gt; gave us a bunch of nodes, so we need to use &lt;em&gt;filter by tag ([k=v])&lt;/em&gt; to filter it to only restaurants.&lt;/p&gt;
-
-&lt;p&gt;Go ahead and combine our &lt;code&gt;around&lt;/code&gt; filter with our &lt;code&gt;by tag&lt;/code&gt; filter!&lt;/p&gt;
+      <description>&lt;p&gt;Nice! It looks like Sally is standing by the Citibike station outside the Montrose (L) station. Sally is really late for CartoCamp, but now she says she&amp;rsquo;s getting a hungry and could use a snack&amp;hellip; Can you help her find a cafe nearby? She&amp;rsquo;s feeling pretty lazy too, she doesn&amp;rsquo;t want to walk far! What are her options?&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Around Filter</title>
+      <title>Around and Around We Go!</title>
       <link>//osmlab.github.io/learnoverpass/en/exercises/intro/5/</link>
       <pubDate>Sun, 05 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/5/</guid>
-      <description>&lt;p&gt;&amp;ldquo;Woah, it’s empty! Could it be that there are no restaurants near me?” asks Bob.&lt;/p&gt;
+      <description>&lt;p&gt;Oh no, nothing was found! Is Sally wrong? She says she definitely sees a Citibike station. It turns out that we can&amp;rsquo;t put these filter statements together because we&amp;rsquo;re not looking for a node that is tagged as both a railway station AND a Citibike station. We&amp;rsquo;re looking for a second node that is &lt;strong&gt;around&lt;/strong&gt; the first one. In Overpass, queries are chained together &amp;ndash; output from a first query will flow as input into the next query.&lt;/p&gt;
 
-&lt;p&gt;Not really. See, our first statement &lt;code&gt;node(2190458950)&lt;/code&gt; is &lt;em&gt;already&lt;/em&gt; a node, so filtering it further wouldn’t do anything! And since we added a new filter (restaurants) to a statement that we &lt;strong&gt;know&lt;/strong&gt; gives us a tree, we basically asked OSM to further filter our result set (a tree node) to only show restaurants, which obviously results in OSM nothing (since a tree is not a restaurant)!&lt;/p&gt;
-
-&lt;p&gt;Our previous examples worked because we filtered for nodes with tags present in an &lt;em&gt;area&lt;/em&gt; (the &lt;code&gt;bounding box&lt;/code&gt; with lat/lon points). We essentially queried for nodes in an area, then used filters to filter it down to a tree.&lt;/p&gt;
-
-&lt;p&gt;Right now, since our node is already a node, we can’t just use a filter to get a restaurant from it. We have to get a new &lt;em&gt;area&lt;/em&gt; from the node.&lt;/p&gt;
-
-&lt;p&gt;To do this, we can make great use of another filter, named &lt;code&gt;around&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Before, we queried for nodes in an &lt;em&gt;area&lt;/em&gt; (the bounding box). Now, we&amp;rsquo;re going to look for nodes within a new area &lt;em&gt;around&lt;/em&gt; the two nodes we found. Let&amp;rsquo;s use the Overpass function &lt;strong&gt;around&lt;/strong&gt; to search for Citibike stations nearby Montrose and Morgan.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Filter by Tag III?</title>
+      <title>Around and Around We Go!</title>
       <link>//osmlab.github.io/learnoverpass/en/exercises/intro/4/</link>
       <pubDate>Sat, 04 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/4/</guid>
-      <description>&lt;p&gt;“Well isn’t that better? Shorter and easier to work with.”&lt;/p&gt;
-
-&lt;p&gt;“You know, I’ve been waiting for you for quite a while, I’m hungry! Since my GPS doesn’t really seem to be all that reliable, would you mind looking for a place near me where I can eat?&amp;rdquo;&lt;/p&gt;
+      <description>&lt;p&gt;Great! We&amp;rsquo;ve narrowed it down to two subway stations&amp;ndash; Montrose and Morgan stations. Sally just texted us again and she says she sees a Citibike station nearby. Another clue!&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Filter By Tag II</title>
+      <title>Regex to the Rescue!</title>
       <link>//osmlab.github.io/learnoverpass/en/exercises/intro/3/</link>
       <pubDate>Fri, 03 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/3/</guid>
-      <description>&lt;p&gt;Awesome! We’ve filtered our data to only show trees!&lt;/p&gt;
+      <description>&lt;p&gt;Okay! We found a few subway stations that Sally might be at. And Sally just remembered that the name of the subway stop started with &amp;ldquo;Mo&amp;hellip;&amp;rdquo; but she can&amp;rsquo;t remember the rest. Oh, Sally! Can we use this information to help figure out which station Sally is at? Let&amp;rsquo;s find names of nodes that start with the letters &amp;ldquo;Mo&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;If you notice on the text editor on the right, [natural=tree] is placed on the 2nd line. Overpass Turbo allows you to add indentation and extra lines as you see fit, so feel free to make ample use of them to make your queries more readable! Note however, that the semicolon is also placed in the second line to tell Overpass that statement is finished. Think of it as Overpass’ period.&lt;/p&gt;
-
-&lt;p&gt;Anyway, we successfully filtered the data to only request for trees. However, we still have a problem. While “Bob” told us he is at a tree, there are THREE trees in the area!&lt;/p&gt;
-
-&lt;p&gt;“Hello! Hello! Query Writer” says Bob.&lt;/p&gt;
-
-&lt;p&gt;Bob: “It seems that we are in quite a predicament here. I’m not sure how I can help, but I do know that I’m next to the tallest tree in the area.”&lt;/p&gt;
-
-&lt;p&gt;Woah, Bob just talked to us, and he mentions being next to the tallest tree! If you notice from the tree nodes, they are also tagged by their height! You can use these to further filter your data!&lt;/p&gt;
+&lt;p&gt;Overpass supports a form of &lt;strong&gt;regular expressions&lt;/strong&gt; that can help us search for non-exact tag values. Let&amp;rsquo;s use &lt;code&gt;~&lt;/code&gt; instead of &lt;code&gt;=&lt;/code&gt; in a filter statement.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Filter By Tag</title>
+      <title>The Signal in the Nodes</title>
       <link>//osmlab.github.io/learnoverpass/en/exercises/intro/2/</link>
       <pubDate>Thu, 02 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/2/</guid>
-      <description>&lt;p&gt;Nice! As you can see the Query Language might look cryptic at first, but it’s actually quite straightforward!&lt;/p&gt;
+      <description>&lt;p&gt;Whoa! That&amp;rsquo;s a lot of nodes. Which one is Sally at? She now says she just exited a subway station&amp;hellip; Click around on the nodes. You&amp;rsquo;ll see that all of them have coordinates, but some have additional information in &lt;strong&gt;tags&lt;/strong&gt;. Let&amp;rsquo;s filter by tags to figure out which subway station Sally might be at.&lt;/p&gt;
 
 &lt;p&gt;Those circles you see in the map view are &amp;ldquo;points of interest&amp;rdquo; called “nodes”. Try clicking on them - some just contain their own positions (lat/lon) but some of them are tagged and contain other data, such as names, type of node, etc, etc.&lt;/p&gt;
 
@@ -260,20 +225,17 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
     </item>
     
     <item>
-      <title>Introduction</title>
+      <title>Let&#39;s Go to CartoCamp!</title>
       <link>//osmlab.github.io/learnoverpass/en/exercises/intro/1/</link>
       <pubDate>Wed, 01 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/1/</guid>
-      <description>&lt;p&gt;Hello and welcome to LearnOverpass!&lt;/p&gt;
+      <description>&lt;p&gt;Welcome to CartoCamp! Today we&amp;rsquo;re going to learn how to use OpenStreetMap&amp;rsquo;s &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/Overpass_API&#34;&gt;Overpass API&lt;/a&gt;. Overpass is an awesome tool for serving up custom selected parts of OSM. This CartoCamp workshop is an introduction to the query language of Overpass and how you can use it to get shapes for your mapping projects!&lt;/p&gt;
 
-&lt;p&gt;The Overpass API is a powerful API that lets you query data from OpenStreetMap. You can find different places, routes to locations, and everything under the sun, quite literally! You can ‘talk’ to it and request data for your own specific use, using its own language, the “Overpass Query Language” (QL).&lt;/p&gt;
+&lt;p&gt;On the right is a text editor where you can type in your query commands. See the statement with the words &lt;code&gt;node&lt;/code&gt; and &lt;code&gt;out&lt;/code&gt;? Thatâs a query statement which asks the API to output a single point of interest (in OSM-speak, a point is a node).&lt;/p&gt;
 
-&lt;p&gt;What you see on the right is a text editor where you can type in your QL commands. See the statement with the word &lt;code&gt;node&lt;/code&gt;? That&amp;rsquo;s a QL statement which asks (queries) the API for a single point of interest (a node) in OpenStreetMap.&lt;/p&gt;
-
-&lt;p&gt;The world map below the editor is a visualization of the data that&amp;rsquo;s received by your statement. Right now it contains nothing, because our statement is incomplete - while we &lt;em&gt;query a node&lt;/em&gt; with the first line, it doesn’t know what or which node we’re interested in, so the API doesn&amp;rsquo;t know what to do with it!&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s change that!&lt;/p&gt;
+&lt;p&gt;The world map below shows the results of your query. You can also toggle the raw data view by clicking the Data button. Right now, the map contains nothing, because our statement is incomplete &amp;ndash; we are asking for a node, but the API doesnât know which node! In fact, there were exactly 3,772,704,127 nodes in OSM when I checked this week at
+&lt;a href=&#34;http://www.openstreetmap.org/stats/data_stats.html&#34;&gt;OSM Stats&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
