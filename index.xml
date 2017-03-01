@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LearnOverpass</title>
-    <link>//osmlab.github.io/learnoverpass/</link>
+    <link>//michellemho.github.io/learnoverpass/</link>
     <description>Recent content on LearnOverpass</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Jul 2015 16:35:50 +0800</lastBuildDate>
-    <atom:link href="//osmlab.github.io/learnoverpass/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//michellemho.github.io/learnoverpass/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Way Node Recursion</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/15/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/15/</link>
       <pubDate>Wed, 15 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/15/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/15/</guid>
       <description>&lt;p&gt;“Oh! I see that building!” Bob exclaims. “So the ATM is just on the other side, yes?”&lt;/p&gt;
 
 &lt;p&gt;As Bob walked to the building, he realized one important thing - he didn’t know where the entrance is! Looks like we need to write another query for him!&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>Way Closed Polygon</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/14/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/14/</link>
       <pubDate>Tue, 14 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/14/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/14/</guid>
       <description>&lt;p&gt;“Hmm, I don’t see it from the observatory, but I do see it from the overpass query map.” says Bob. Indeed, the ATM is on the opposite side of a building (the brownish polygon in the map viewer).&lt;/p&gt;
 
 &lt;p&gt;Let’s go ahead and query for both ATM and the building, so that Bob can have a better idea as to where the ATM is.&lt;/p&gt;
@@ -41,10 +41,10 @@
     
     <item>
       <title>Around II</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/13/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/13/</link>
       <pubDate>Mon, 13 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/13/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/13/</guid>
       <description>&lt;p&gt;“Thanks man!” Bob says as we query for the route back again. He follows it to reach the observatory tower. Once he reached the river bank, he decides to leave his bike and &lt;em&gt;swim&lt;/em&gt; to the observatory!&lt;/p&gt;
 
 &lt;p&gt;After a few minutes, Bob comes back, shivering and wet.&lt;/p&gt;
@@ -61,10 +61,10 @@
     
     <item>
       <title>Out Modificator Data</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/12/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/12/</link>
       <pubDate>Sun, 12 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/12/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/12/</guid>
       <description>&lt;p&gt;“Uaaghhh! What happened to my map!” Bob exclaims as he saw the now empty map view.&lt;/p&gt;
 
 &lt;p&gt;So you see, using a bare &lt;code&gt;out&lt;/code&gt; statement produced an empty map.&lt;/p&gt;
@@ -79,10 +79,10 @@
     
     <item>
       <title>Out Modificators</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/11/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/11/</link>
       <pubDate>Sat, 11 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/11/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/11/</guid>
       <description>&lt;p&gt;Incredibly good work!&lt;/p&gt;
 
 &lt;p&gt;“Thanks!” Bob said as he hopped on his bike. “I’ll be following this road to the observatory then!&amp;rdquo;
@@ -105,10 +105,10 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
     
     <item>
       <title>Way By Area</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/10/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/10/</link>
       <pubDate>Fri, 10 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/10/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/10/</guid>
       <description>&lt;p&gt;“Ahm, Are you sure this is right?” Bob says as he sees the different ways. Uh oh!&lt;/p&gt;
 
 &lt;p&gt;We’ve managed to successfully query for ways of the name “Innstraße”, but unfortunately, it seems that there are actually quite a few ways that are named the same!&lt;/p&gt;
@@ -121,10 +121,10 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
     
     <item>
       <title>Way Query</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/9/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/9/</link>
       <pubDate>Thu, 09 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/9/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/9/</guid>
       <description>&lt;p&gt;Bob carefully examines the bike in the parking space, trying to find his bike. “Aha!&amp;rdquo; exclaims Bob, as he grabs the red bike we can only assume is his.&lt;/p&gt;
 
 &lt;p&gt;Now that Bob is on his bike, he now needs to go the observatory to find his wallet. Since we already know Bob has a bad sense of direction (I mean, he did get lost!) it’d be best to show Bob the main road he needs to take to reach the observatory.&lt;/p&gt;
@@ -137,10 +137,10 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
     
     <item>
       <title>Sally Goes to Spain???</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/8/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/8/</link>
       <pubDate>Wed, 08 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/8/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/8/</guid>
       <description>&lt;p&gt;Huh&amp;hellip; so it looks like CARTO is in Madrid! Sally is very worried that she misread the MeetUp and accidentally went to CARTO Brooklyn instead of CARTO Madrid. But wait! This is where we learn that there are things other than nodes that exist in OpenStreetMap. Obviously, there are polygons and lines! In OSM-speak, these are called &lt;strong&gt;ways&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;To be continued&amp;hellip;&lt;/p&gt;
@@ -149,10 +149,10 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
     
     <item>
       <title>Donuts to CARTO!</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/7/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/7/</link>
       <pubDate>Tue, 07 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/7/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/7/</guid>
       <description>&lt;p&gt;Great, you found three cafes! Sally heads into Dunwell Doughnuts to end the rumblings in her stomach.&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s recap what we&amp;rsquo;ve learned so far:&lt;/p&gt;
@@ -168,20 +168,20 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
     
     <item>
       <title>Around and Around We Go!</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/6/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/6/</link>
       <pubDate>Mon, 06 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/6/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/6/</guid>
       <description>&lt;p&gt;Nice! It looks like Sally is standing by the Citibike station outside the Montrose (L) station. Sally is really late for CartoCamp, but now she says she&amp;rsquo;s getting a hungry and could use a snack&amp;hellip; Can you help her find a cafe nearby? She&amp;rsquo;s feeling pretty lazy too, she doesn&amp;rsquo;t want to walk far! What are her options?&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Around and Around We Go!</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/5/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/5/</link>
       <pubDate>Sun, 05 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/5/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/5/</guid>
       <description>&lt;p&gt;Oh no, nothing was found! Is Sally wrong? She says she definitely sees a Citibike station. It turns out that we can&amp;rsquo;t put these filter statements together because we&amp;rsquo;re not looking for a node that is tagged as both a railway station AND a Citibike station. We&amp;rsquo;re looking for a second node that is &lt;strong&gt;around&lt;/strong&gt; the first one. In Overpass, queries are chained together &amp;ndash; output from a first query will flow as input into the next query.&lt;/p&gt;
 
 &lt;p&gt;Before, we queried for nodes in an &lt;em&gt;area&lt;/em&gt; (the bounding box). Now, we&amp;rsquo;re going to look for nodes within a new area &lt;em&gt;around&lt;/em&gt; the two nodes we found. Let&amp;rsquo;s use the Overpass function &lt;strong&gt;around&lt;/strong&gt; to search for Citibike stations nearby Montrose and Morgan.&lt;/p&gt;
@@ -190,20 +190,20 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
     
     <item>
       <title>Around and Around We Go!</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/4/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/4/</link>
       <pubDate>Sat, 04 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/4/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/4/</guid>
       <description>&lt;p&gt;Great! We&amp;rsquo;ve narrowed it down to two subway stations&amp;ndash; Montrose and Morgan stations. Sally just texted us again and she says she sees a Citibike station nearby. Another clue!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Regex to the Rescue!</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/3/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/3/</link>
       <pubDate>Fri, 03 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/3/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/3/</guid>
       <description>&lt;p&gt;Okay! We found a few subway stations that Sally might be at. And Sally just remembered that the name of the subway stop started with &amp;ldquo;Mo&amp;hellip;&amp;rdquo; but she can&amp;rsquo;t remember the rest. Oh, Sally! Can we use this information to help figure out which station Sally is at? Let&amp;rsquo;s find names of nodes that start with the letters &amp;ldquo;Mo&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;Overpass supports a form of &lt;strong&gt;regular expressions&lt;/strong&gt; that can help us search for non-exact tag values. Let&amp;rsquo;s use &lt;code&gt;~&lt;/code&gt; instead of &lt;code&gt;=&lt;/code&gt; in a filter statement.&lt;/p&gt;
@@ -212,10 +212,10 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
     
     <item>
       <title>The Signal in the Nodes</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/2/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/2/</link>
       <pubDate>Thu, 02 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/2/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/2/</guid>
       <description>&lt;p&gt;Whoa! That&amp;rsquo;s a lot of nodes. Which one is Sally at? She now says she just exited a subway station&amp;hellip; Click around on the nodes. You&amp;rsquo;ll see that all of them have coordinates, but some have additional information in &lt;strong&gt;tags&lt;/strong&gt;. Let&amp;rsquo;s filter by tags to figure out which subway station Sally might be at.&lt;/p&gt;
 
 &lt;p&gt;Those circles you see in the map view are &amp;ldquo;points of interest&amp;rdquo; called “nodes”. Try clicking on them - some just contain their own positions (lat/lon) but some of them are tagged and contain other data, such as names, type of node, etc, etc.&lt;/p&gt;
@@ -226,10 +226,10 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
     
     <item>
       <title>Let&#39;s Go to CartoCamp!</title>
-      <link>//osmlab.github.io/learnoverpass/en/exercises/intro/1/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/1/</link>
       <pubDate>Wed, 01 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//osmlab.github.io/learnoverpass/en/exercises/intro/1/</guid>
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/1/</guid>
       <description>&lt;p&gt;Welcome to CartoCamp! Today we&amp;rsquo;re going to learn how to use OpenStreetMap&amp;rsquo;s &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/Overpass_API&#34;&gt;Overpass API&lt;/a&gt;. Overpass is an awesome tool for serving up custom selected parts of OSM. This CartoCamp workshop is an introduction to the query language of Overpass and how you can use it to get shapes for your mapping projects!&lt;/p&gt;
 
 &lt;p&gt;On the right is a text editor where you can type in your query commands. See the statement with the words &lt;code&gt;node&lt;/code&gt; and &lt;code&gt;out&lt;/code&gt;? Thatâs a query statement which asks the API to output a single point of interest (in OSM-speak, a point is a node).&lt;/p&gt;
