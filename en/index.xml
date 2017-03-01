@@ -6,74 +6,16 @@
     <description>Recent content in Ens on LearnOverpass</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2015 16:35:50 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2015 16:35:50 +0800</lastBuildDate>
     <atom:link href="//michellemho.github.io/learnoverpass/en/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Way Node Recursion</title>
-      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/15/</link>
-      <pubDate>Wed, 15 Jul 2015 16:35:50 +0800</pubDate>
-      
-      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/15/</guid>
-      <description>&lt;p&gt;“Oh! I see that building!” Bob exclaims. “So the ATM is just on the other side, yes?”&lt;/p&gt;
-
-&lt;p&gt;As Bob walked to the building, he realized one important thing - he didn’t know where the entrance is! Looks like we need to write another query for him!&lt;/p&gt;
-
-&lt;p&gt;With the existing query, we’ve successfully found the building, but we need to further locate a specific point - the building’s entrance.&lt;/p&gt;
-
-&lt;p&gt;A building, since it’s generally a polygon when viewed from the map, is defined as a &lt;code&gt;way&lt;/code&gt;. However, an entrance is usually just one point in the map - a point with a specific location. So how do you think they are represented in Overpass? If you’ve guessed by &lt;code&gt;node&lt;/code&gt;s, then you’ve guessed right!&lt;/p&gt;
-
-&lt;p&gt;Remember when I told you that &lt;code&gt;way&lt;/code&gt;s are just defined as an ordered list of nodes? Some of these nodes can be further tagged, taking different values such as entrances. In the next query, we’ll learn how to query for a specific node (an entrance) that is part of a &lt;code&gt;way&lt;/code&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Way Node Recursion</title>
-      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/16/</link>
-      <pubDate>Wed, 15 Jul 2015 16:35:50 +0800</pubDate>
-      
-      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/16/</guid>
-      <description>&lt;p&gt;“Oh! I see that building!” Bob exclaims. “So the ATM is just on the other side, yes?”&lt;/p&gt;
-
-&lt;p&gt;As Bob walked to the building, he realized one important thing - he didn’t know where the entrance is! Looks like we need to write another query for him!&lt;/p&gt;
-
-&lt;p&gt;With the existing query, we’ve successfully found the building, but we need to further locate a specific point - the building’s entrance.&lt;/p&gt;
-
-&lt;p&gt;A building, since it’s generally a polygon when viewed from the map, is defined as a &lt;code&gt;way&lt;/code&gt;. However, an entrance is usually just one point in the map - a point with a specific location. So how do you think they are represented in Overpass? If you’ve guessed by &lt;code&gt;node&lt;/code&gt;s, then you’ve guessed right!&lt;/p&gt;
-
-&lt;p&gt;Remember when I told you that &lt;code&gt;way&lt;/code&gt;s are just defined as an ordered list of nodes? Some of these nodes can be further tagged, taking different values such as entrances. In the next query, we’ll learn how to query for a specific node (an entrance) that is part of a &lt;code&gt;way&lt;/code&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Way Closed Polygon</title>
-      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/14/</link>
-      <pubDate>Tue, 14 Jul 2015 16:35:50 +0800</pubDate>
-      
-      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/14/</guid>
-      <description>&lt;p&gt;“Hmm, I don’t see it from the observatory, but I do see it from the overpass query map.” says Bob. Indeed, the ATM is on the opposite side of a building (the brownish polygon in the map viewer).&lt;/p&gt;
-
-&lt;p&gt;Let’s go ahead and query for both ATM and the building, so that Bob can have a better idea as to where the ATM is.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Around II</title>
+      <title>Challenge Question #2</title>
       <link>//michellemho.github.io/learnoverpass/en/exercises/intro/13/</link>
       <pubDate>Mon, 13 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/13/</guid>
-      <description>&lt;p&gt;“Thanks man!” Bob says as we query for the route back again. He follows it to reach the observatory tower. Once he reached the river bank, he decides to leave his bike and &lt;em&gt;swim&lt;/em&gt; to the observatory!&lt;/p&gt;
-
-&lt;p&gt;After a few minutes, Bob comes back, shivering and wet.&lt;/p&gt;
-
-&lt;p&gt;“Brrrr… water’s cold!” Bob exclaims, when, out of nowhere, the waiter from the restaurant, all in white attire, appareas. He actually followed Bob all this way!&lt;/p&gt;
-
-&lt;p&gt;“Sir” the waiter says, panting “I still need that 25 euroes!”. “Yeah, surely” Bob says as he grabbed his wet wallet from his pocket.&lt;/p&gt;
-
-&lt;p&gt;“Oh” a deadpan expression comes from him. “Sorry, it seemed that I lost all my money swimming back here!”&lt;/p&gt;
-
-&lt;p&gt;Waiter: &lt;em&gt;Facepalm&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Can you count how many museums there are in New York City per borough?&lt;/p&gt;
 </description>
     </item>
     
@@ -88,7 +30,7 @@
     </item>
     
     <item>
-      <title>Out Modificators</title>
+      <title>Search Area</title>
       <link>//michellemho.github.io/learnoverpass/en/exercises/intro/11/</link>
       <pubDate>Sat, 11 Jul 2015 16:35:50 +0800</pubDate>
       
@@ -209,6 +151,105 @@
       
       <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/2/</guid>
       <description>&lt;p&gt;Whoa! That&amp;rsquo;s a lot of nodes. Which one is Sally at? She now says she just exited a subway station&amp;hellip; Click around on the nodes. You&amp;rsquo;ll see that all of them have coordinates, but some have additional information in &lt;strong&gt;tags&lt;/strong&gt;. Let&amp;rsquo;s filter by tags to figure out which subway station Sally might be at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Go to CartoCamp!</title>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/1/</link>
+      <pubDate>Wed, 01 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/1/</guid>
+      <description>&lt;p&gt;Welcome to CartoCamp! Today we&amp;rsquo;re going to learn how to use OpenStreetMap&amp;rsquo;s &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/Overpass_API&#34;&gt;Overpass API&lt;/a&gt;. Overpass is an awesome tool for serving up custom selected parts of OSM. This CartoCamp workshop is an introduction to the query language of Overpass and how you can use it to get shapes for your mapping projects!&lt;/p&gt;
+
+&lt;p&gt;On the right is a text editor where you can type in your query commands. See the statement with the words &lt;code&gt;node&lt;/code&gt; and &lt;code&gt;out&lt;/code&gt;? That&amp;rsquo;s a query statement which asks the API to output a single point of interest (in OSM-speak, a point is a node).&lt;/p&gt;
+
+&lt;p&gt;The world map below shows the results of your query. You can also toggle the raw data view by clicking the Data button. Right now, the map contains nothing, because our statement is incomplete &amp;ndash; we are asking for a node, but the API doesnât know which node! In fact, there were exactly 3,772,704,127 nodes in OSM when I checked this week at
+&lt;a href=&#34;http://www.openstreetmap.org/stats/data_stats.html&#34;&gt;OSM Stats&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Union</title>
+      <link>//michellemho.github.io/learnoverpass/en/docs/block-queries/union/</link>
+      <pubDate>Thu, 07 May 2015 11:09:35 +0000</pubDate>
+      
+      <guid>//michellemho.github.io/learnoverpass/en/docs/block-queries/union/</guid>
+      <description>&lt;p&gt;The union block statement is written as a pair of parentheses. Inside the union, any sequence of statements can be placed, including nested union and foreach statements.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(statement_1; statement_2; …)[-&amp;gt;.result_set];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It takes no input set. It produces a result set. Its result set is the union of the result sets of all sub-statements, regardless of whether a sub-statement has a redirected result set or not.&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(node[name=&amp;quot;Foo&amp;quot;];way[name=&amp;quot;Foo&amp;quot;];);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This collects in the first statement all nodes that have a name tag &amp;ldquo;Foo&amp;rdquo; and in the second statement all ways that have a name tag &amp;ldquo;Foo&amp;rdquo;. After the union statement, the result set is the union of the result sets of both statements.&lt;/p&gt;
+
+&lt;p&gt;The result set of the union statement can be redirected with the usual postfix notation:&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(node[name=&amp;quot;Foo&amp;quot;];way[name=&amp;quot;Foo&amp;quot;];)-&amp;gt;.a;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Same as the preceding example, but the result is written into the variable a.&lt;/p&gt;
+
+&lt;p&gt;Note: foreach and print statements cannot be subelement of element union.&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;docs-repl&#34;&gt;  &lt;textarea&gt;
+(
+node
+  [amenity=drinking_water]
+  (47.06,15.42,47.09,15.48);
+node
+  [tourism=hotel]
+  (47.06,15.42,47.09,15.48);
+);
+out;
+&lt;/textarea&gt;&lt;div class=&#34;docs-repl-result&#34;&gt;  &lt;iframe src=&#34;https://overpass-turbo.eu/master/map.html?Q=%0a%28%0anode%0a%20%20%5bamenity%3ddrinking_water%5d%0a%20%20%2847.06%2c15.42%2c47.09%2c15.48%29%3b%0anode%0a%20%20%5btourism%3dhotel%5d%0a%20%20%2847.06%2c15.42%2c47.09%2c15.48%29%3b%0a%29%3b%0aout%3b%0a&#34;  seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;100%;&#34;&gt;&lt;/iframe&gt;&lt;textarea&gt;&lt;/textarea&gt; &lt;a class=&#34;docs-repl-change-output button&#34; href=&#34;#&#34;&gt;Data&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Difference</title>
+      <link>//michellemho.github.io/learnoverpass/en/docs/block-queries/difference/</link>
+      <pubDate>Wed, 06 May 2015 11:09:35 +0000</pubDate>
+      
+      <guid>//michellemho.github.io/learnoverpass/en/docs/block-queries/difference/</guid>
+      <description>&lt;p&gt;The difference block statement is written as a pair of parentheses. Inside the difference statement, exactly two statements must be placed, and between them a minus sign.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(statement_1; - statement_2;)[-&amp;gt;.result_set];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It takes no input set. It produces a result set. Its result set contains all elements that are result of the first sub-statement and not contained in the result of the second sub-statement.&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(node[name=&amp;quot;Foo&amp;quot;]; - node(50.0,7.0,51.0,8.0););
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This collects all nodes that have a name tag &amp;ldquo;Foo&amp;rdquo; but are not inside the given bounding box.&lt;/p&gt;
+
+&lt;p&gt;The result set of the difference statement can be redirected with the usual postfix notation:&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(node[name=&amp;quot;Foo&amp;quot;]; - node(50.0,7.0,51.0,8.0);)-&amp;gt;.a;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Same as the preceding example, but the result is written into the variable a.&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;docs-repl&#34;&gt;  &lt;textarea&gt;
+(
+node[amenity]( 47.06, 15.435,  47.07,  15.44);
+-node[amenity](47.064, 15.435, 47.066, 15.44);
+);
+out;
+&lt;/textarea&gt;&lt;div class=&#34;docs-repl-result&#34;&gt;  &lt;iframe src=&#34;https://overpass-turbo.eu/master/map.html?Q=%0a%28%0anode%5bamenity%5d%28%2047.06%2c%2015.435%2c%20%2047.07%2c%20%2015.44%29%3b%0a-node%5bamenity%5d%2847.064%2c%2015.435%2c%2047.066%2c%2015.44%29%3b%0a%29%3b%0aout%3b%0a&#34;  seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;100%;&#34;&gt;&lt;/iframe&gt;&lt;textarea&gt;&lt;/textarea&gt; &lt;a class=&#34;docs-repl-change-output button&#34; href=&#34;#&#34;&gt;Data&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
