@@ -28,6 +28,24 @@
     </item>
     
     <item>
+      <title>Way Node Recursion</title>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/16/</link>
+      <pubDate>Wed, 15 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/16/</guid>
+      <description>&lt;p&gt;“Oh! I see that building!” Bob exclaims. “So the ATM is just on the other side, yes?”&lt;/p&gt;
+
+&lt;p&gt;As Bob walked to the building, he realized one important thing - he didn’t know where the entrance is! Looks like we need to write another query for him!&lt;/p&gt;
+
+&lt;p&gt;With the existing query, we’ve successfully found the building, but we need to further locate a specific point - the building’s entrance.&lt;/p&gt;
+
+&lt;p&gt;A building, since it’s generally a polygon when viewed from the map, is defined as a &lt;code&gt;way&lt;/code&gt;. However, an entrance is usually just one point in the map - a point with a specific location. So how do you think they are represented in Overpass? If you’ve guessed by &lt;code&gt;node&lt;/code&gt;s, then you’ve guessed right!&lt;/p&gt;
+
+&lt;p&gt;Remember when I told you that &lt;code&gt;way&lt;/code&gt;s are just defined as an ordered list of nodes? Some of these nodes can be further tagged, taking different values such as entrances. In the next query, we’ll learn how to query for a specific node (an entrance) that is part of a &lt;code&gt;way&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Way Closed Polygon</title>
       <link>//michellemho.github.io/learnoverpass/en/exercises/intro/14/</link>
       <pubDate>Tue, 14 Jul 2015 16:35:50 +0800</pubDate>
@@ -60,20 +78,12 @@
     </item>
     
     <item>
-      <title>Out Modificator Data</title>
+      <title>Challenge Question #1</title>
       <link>//michellemho.github.io/learnoverpass/en/exercises/intro/12/</link>
       <pubDate>Sun, 12 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/12/</guid>
-      <description>&lt;p&gt;“Uaaghhh! What happened to my map!” Bob exclaims as he saw the now empty map view.&lt;/p&gt;
-
-&lt;p&gt;So you see, using a bare &lt;code&gt;out&lt;/code&gt; statement produced an empty map.&lt;/p&gt;
-
-&lt;p&gt;See, our &lt;code&gt;out&lt;/code&gt; statement &lt;code&gt;print&lt;/code&gt;s out the data that it receives, that is, if it can. A way only carries a reference to the list of nodes that make up for it - try clicking the ‘data’ button on the top right of the map view. This will show you the raw ‘data’ that overpass returns. Go ahead, try it.&lt;/p&gt;
-
-&lt;p&gt;Ack! It might look a bit complicated, but the basic thing that we have to look into here is that the way, has a list of nodes (nd). So you see, we actually just queried for the &lt;code&gt;way&lt;/code&gt;, specifically, the list of nodes that make it up.&lt;/p&gt;
-
-&lt;p&gt;Let’s change our query back again to see the route.&lt;/p&gt;
+      <description>&lt;p&gt;Can you find all the schools and parks in New York City that are within 50 meters of each other?&lt;/p&gt;
 </description>
     </item>
     
@@ -83,55 +93,33 @@
       <pubDate>Sat, 11 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/11/</guid>
-      <description>&lt;p&gt;Incredibly good work!&lt;/p&gt;
+      <description>&lt;p&gt;So there are quite a few Bushwick Avenues in the world. It looks like there&amp;rsquo;s at least three in Long Island and even one in New Jersey. Let&amp;rsquo;s limit the search area to just New York City. Areas are kind of funny in OSM. You can read more about it here: &lt;a href=&#34;http://michellemho.github.io/learnoverpass/en/docs/filters/area/&#34;&gt;http://michellemho.github.io/learnoverpass/en/docs/filters/area/&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;“Thanks!” Bob said as he hopped on his bike. “I’ll be following this road to the observatory then!&amp;rdquo;
- 
-The last couple of exercises introduced quite a few things, namely, &lt;code&gt;way&lt;/code&gt; and the &lt;code&gt;out geom&lt;/code&gt; modificator.&lt;/p&gt;
-
-&lt;p&gt;A &lt;code&gt;Way&lt;/code&gt; is another OSM element (like &lt;code&gt;node&lt;/code&gt;) that describes a linear feature or area. Just accept that a &lt;code&gt;way&lt;/code&gt; can also define areas for now. The relevant info that we need to learn is that a &lt;code&gt;way&lt;/code&gt; is usually used to define roads, streams and highways, among other things. If you need to query for a route, or something that you think can’t be defined as a single ‘point’, it’s most likely a &lt;code&gt;way&lt;/code&gt; element!&lt;/p&gt;
-
-&lt;p&gt;In OSM, Ways are represented just as a set of points. If you think about it, we can use a couple of points to define a line (which can be used to define routes). &lt;/p&gt;
-
-&lt;p&gt;Since ways are represented internally as just a set of points, a &lt;code&gt;way&lt;/code&gt; is actually just &lt;em&gt;an ordered list of nodes&lt;/em&gt;! Awesome right? Because of this, we can actually query for the individual nodes in a way, though that’s not something we will do for now. &lt;/p&gt;
-
-&lt;p&gt;You might have noticed that we used &lt;code&gt;out geom;&lt;/code&gt; instead of our usual &lt;code&gt;out&lt;/code&gt; statement in our latest query. What’s up with that?&lt;/p&gt;
-
-&lt;p&gt;To understand that, let’s talk about &lt;code&gt;out&lt;/code&gt; first. The &lt;code&gt;out&lt;/code&gt; statement is an called &lt;em&gt;action&lt;/em&gt;, the only &lt;em&gt;action&lt;/em&gt; in the Overpass QL. What it does is to take the input set (the result set/data that preceeds it) and &lt;code&gt;print&lt;/code&gt; it, so we can use the data (which we see in the map viewer).&lt;/p&gt;
-
-&lt;p&gt;So far, we have only used the bare &lt;code&gt;out&lt;/code&gt; statement. What happens if we used &lt;code&gt;out&lt;/code&gt; instead of &lt;code&gt;out geom&lt;/code&gt; in our last query? Let’s try that!&lt;/p&gt;
+&lt;p&gt;For now, we&amp;rsquo;re going to limit the area search not with a bounding box or an &amp;ldquo;around&amp;rdquo; filter, but with an area filter. First, we need to find areas with the name &amp;ldquo;New York City&amp;rdquo;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Way By Area</title>
+      <title>Roads to Nowhere</title>
       <link>//michellemho.github.io/learnoverpass/en/exercises/intro/10/</link>
       <pubDate>Fri, 10 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/10/</guid>
-      <description>&lt;p&gt;“Ahm, Are you sure this is right?” Bob says as he sees the different ways. Uh oh!&lt;/p&gt;
+      <description>&lt;p&gt;Hooray! You found CARTO Brooklyn!&lt;/p&gt;
 
-&lt;p&gt;We’ve managed to successfully query for ways of the name “Innstraße”, but unfortunately, it seems that there are actually quite a few ways that are named the same!&lt;/p&gt;
-
-&lt;p&gt;This is obviously unacceptable - Overpass showed us all the ways named “Innstraße” around the world, but we’re only interested in the “Innstraße” near Bob.&lt;/p&gt;
-
-&lt;p&gt;Since we know we Bob is in &lt;em&gt;Passau&lt;/em&gt;, what we can do is to query for the ways that is only in &lt;em&gt;Passau&lt;/em&gt;. Again, we use the &lt;code&gt;area&lt;/code&gt; query to do this.&lt;/p&gt;
+&lt;p&gt;It looks like Sally needs to walk down Bushwick Avenue to get here. Let&amp;rsquo;s put that on the Overpass map for her too. You should know all the steps to find and visualize a street (aka way) named &amp;lsquo;Bushwick Avenue&amp;rsquo; by now!&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Way Query</title>
+      <title>Where is the Way?</title>
       <link>//michellemho.github.io/learnoverpass/en/exercises/intro/9/</link>
       <pubDate>Thu, 09 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/9/</guid>
-      <description>&lt;p&gt;Bob carefully examines the bike in the parking space, trying to find his bike. “Aha!&amp;rdquo; exclaims Bob, as he grabs the red bike we can only assume is his.&lt;/p&gt;
+      <description>&lt;p&gt;&amp;ldquo;I still don&amp;rsquo;t know where I need to go!&amp;rdquo; Sally wails. Why is there still no CARTO in Brooklyn? Sally is very sure this building should exist. And so do we because we&amp;rsquo;re sitting inside it right now.&lt;/p&gt;
 
-&lt;p&gt;Now that Bob is on his bike, he now needs to go the observatory to find his wallet. Since we already know Bob has a bad sense of direction (I mean, he did get lost!) it’d be best to show Bob the main road he needs to take to reach the observatory.&lt;/p&gt;
-
-&lt;p&gt;If you look at the map viewer closely, you will see that between the bicycle parking spot and the observatory tower is the main road &amp;ldquo;Innstraße&amp;rdquo;. as the main road Bob needs to take in order to reach the observatory. How can we possibly show this? By using &lt;code&gt;node&lt;/code&gt;, and having &lt;code&gt;[name=&amp;quot;Innstraße&amp;quot;]&lt;/code&gt; as a filter perhaps?&lt;/p&gt;
-
-&lt;p&gt;Not quite. Remember that &lt;code&gt;node&lt;/code&gt;s are &lt;strong&gt;strictly&lt;/strong&gt; for &lt;em&gt;points&lt;/em&gt; of interest. They can’t map roads, as that doesn’t really exist as a single point.&lt;/p&gt;
+&lt;p&gt;Check out the &amp;ldquo;Data&amp;rdquo; view of our results right now. We see the three cafe nodes printed out (Dun-Well Doughnuts, Jessie&amp;rsquo;s Bakery, and Bread Brothers). But what about the way? It looks like a list of node ids. We need to change the output method to get these points on the map!&lt;/p&gt;
 </description>
     </item>
     
@@ -141,9 +129,11 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
       <pubDate>Wed, 08 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/8/</guid>
-      <description>&lt;p&gt;Huh&amp;hellip; so it looks like CARTO is in Madrid! Sally is very worried that she misread the MeetUp and accidentally went to CARTO Brooklyn instead of CARTO Madrid. But wait! This is where we learn that there are things other than nodes that exist in OpenStreetMap. Obviously, there are polygons and lines! In OSM-speak, these are called &lt;strong&gt;ways&lt;/strong&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Huh&amp;hellip; so it looks like CARTO is in Madrid! Sally is very worried that she misread the MeetUp and accidentally went to CARTO Brooklyn instead of CARTO Madrid. But wait! This is where we learn that there are things other than &lt;strong&gt;nodes&lt;/strong&gt; that exist in OpenStreetMap. Obviously, there are polygons and lines too! In OSM-speak, these are called &lt;strong&gt;ways&lt;/strong&gt;. A way is essentially an ordered list of nodes that make up linear features like roads, rivers, etc. A closed way (where the first and last node is the same) is a polygon and can represent building footprints, parks, regions, etc.&lt;/p&gt;
 
-&lt;p&gt;To be continued&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Finally, OSM has &lt;strong&gt;relations&lt;/strong&gt; which is a data structure describing a relationship. For example, if you have a building with a hole in it (like a courtyard), a single &lt;strong&gt;way&lt;/strong&gt; can&amp;rsquo;t represent this. A relation that represents this complex multipolygon needs to be used instead.&lt;/p&gt;
+
+&lt;p&gt;Lucky for us, CARTO Brooklyn is a pretty regular looking rectangular building. Let&amp;rsquo;s look for a &lt;strong&gt;way&lt;/strong&gt; with the name CARTO!&lt;/p&gt;
 </description>
     </item>
     
@@ -163,6 +153,8 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
 &lt;li&gt;Use regular expressions to find non-exact tag values&lt;/li&gt;
 &lt;li&gt;Chain together multiple query statements&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;It&amp;rsquo;s now time we figured out where CARTO is!&lt;/p&gt;
 </description>
     </item>
     
@@ -217,21 +209,6 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
       
       <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/2/</guid>
       <description>&lt;p&gt;Whoa! That&amp;rsquo;s a lot of nodes. Which one is Sally at? She now says she just exited a subway station&amp;hellip; Click around on the nodes. You&amp;rsquo;ll see that all of them have coordinates, but some have additional information in &lt;strong&gt;tags&lt;/strong&gt;. Let&amp;rsquo;s filter by tags to figure out which subway station Sally might be at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Let&#39;s Go to CartoCamp!</title>
-      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/1/</link>
-      <pubDate>Wed, 01 Jul 2015 16:35:50 +0800</pubDate>
-      
-      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/1/</guid>
-      <description>&lt;p&gt;Welcome to CartoCamp! Today we&amp;rsquo;re going to learn how to use OpenStreetMap&amp;rsquo;s &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/Overpass_API&#34;&gt;Overpass API&lt;/a&gt;. Overpass is an awesome tool for serving up custom selected parts of OSM. This CartoCamp workshop is an introduction to the query language of Overpass and how you can use it to get shapes for your mapping projects!&lt;/p&gt;
-
-&lt;p&gt;On the right is a text editor where you can type in your query commands. See the statement with the words &lt;code&gt;node&lt;/code&gt; and &lt;code&gt;out&lt;/code&gt;? That&amp;rsquo;s a query statement which asks the API to output a single point of interest (in OSM-speak, a point is a node).&lt;/p&gt;
-
-&lt;p&gt;The world map below shows the results of your query. You can also toggle the raw data view by clicking the Data button. Right now, the map contains nothing, because our statement is incomplete &amp;ndash; we are asking for a node, but the API doesnât know which node! In fact, there were exactly 3,772,704,127 nodes in OSM when I checked this week at
-&lt;a href=&#34;http://www.openstreetmap.org/stats/data_stats.html&#34;&gt;OSM Stats&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
