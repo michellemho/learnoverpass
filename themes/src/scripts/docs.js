@@ -7,7 +7,7 @@
 
   var createDocsRepl = require('./components/docs-repl.js');
 
-  var turboURL = "http://overpass-turbo.eu/";
+  var turboURL = "https://overpass-turbo.eu/";
 
   var codeTags = document.getElementsByTagName("code");
   [].forEach.call(codeTags, function(elm) {
