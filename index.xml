@@ -217,10 +217,6 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
       
       <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/2/</guid>
       <description>&lt;p&gt;Whoa! That&amp;rsquo;s a lot of nodes. Which one is Sally at? She now says she just exited a subway station&amp;hellip; Click around on the nodes. You&amp;rsquo;ll see that all of them have coordinates, but some have additional information in &lt;strong&gt;tags&lt;/strong&gt;. Let&amp;rsquo;s filter by tags to figure out which subway station Sally might be at.&lt;/p&gt;
-
-&lt;p&gt;Those circles you see in the map view are &amp;ldquo;points of interest&amp;rdquo; called “nodes”. Try clicking on them - some just contain their own positions (lat/lon) but some of them are tagged and contain other data, such as names, type of node, etc, etc.&lt;/p&gt;
-
-&lt;p&gt;Since our friend “Bob” has a pretty inaccurate GPS, he only managed to give us rough coordinates. He DID say that he would be by a tree, however, so why don’t we try searching for a node that’s a tree? He’s bound to be there!&lt;/p&gt;
 </description>
     </item>
     
@@ -232,7 +228,7 @@ The last couple of exercises introduced quite a few things, namely, &lt;code&gt;
       <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/1/</guid>
       <description>&lt;p&gt;Welcome to CartoCamp! Today we&amp;rsquo;re going to learn how to use OpenStreetMap&amp;rsquo;s &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/Overpass_API&#34;&gt;Overpass API&lt;/a&gt;. Overpass is an awesome tool for serving up custom selected parts of OSM. This CartoCamp workshop is an introduction to the query language of Overpass and how you can use it to get shapes for your mapping projects!&lt;/p&gt;
 
-&lt;p&gt;On the right is a text editor where you can type in your query commands. See the statement with the words &lt;code&gt;node&lt;/code&gt; and &lt;code&gt;out&lt;/code&gt;? Thatâs a query statement which asks the API to output a single point of interest (in OSM-speak, a point is a node).&lt;/p&gt;
+&lt;p&gt;On the right is a text editor where you can type in your query commands. See the statement with the words &lt;code&gt;node&lt;/code&gt; and &lt;code&gt;out&lt;/code&gt;? That&amp;rsquo;s a query statement which asks the API to output a single point of interest (in OSM-speak, a point is a node).&lt;/p&gt;
 
 &lt;p&gt;The world map below shows the results of your query. You can also toggle the raw data view by clicking the Data button. Right now, the map contains nothing, because our statement is incomplete &amp;ndash; we are asking for a node, but the API doesnât know which node! In fact, there were exactly 3,772,704,127 nodes in OSM when I checked this week at
 &lt;a href=&#34;http://www.openstreetmap.org/stats/data_stats.html&#34;&gt;OSM Stats&lt;/a&gt;.&lt;/p&gt;
