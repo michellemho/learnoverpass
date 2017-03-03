@@ -6,26 +6,51 @@
     <description>Recent content on LearnOverpass</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jul 2015 16:35:50 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2015 16:35:50 +0800</lastBuildDate>
     <atom:link href="//michellemho.github.io/learnoverpass/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>That&#39;s all for now!</title>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/15/</link>
+      <pubDate>Thu, 16 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/15/</guid>
+      <description>&lt;p&gt;Great work! That&amp;rsquo;s all for now. Check back again later!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Challenge Question #2</title>
-      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/13/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/14/</link>
       <pubDate>Mon, 13 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/13/</guid>
-      <description>&lt;p&gt;Can you count how many museums there are in New York City per borough?&lt;/p&gt;
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/14/</guid>
+      <description>&lt;p&gt;This one is hard. It&amp;rsquo;s going to use a &lt;code&gt;foreach&lt;/code&gt; loop. Can you count how many museums there are in New York City per borough?&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Challenge Question #1</title>
-      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/12/</link>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/13/</link>
       <pubDate>Sun, 12 Jul 2015 16:35:50 +0800</pubDate>
       
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/13/</guid>
+      <description>&lt;p&gt;Challenge Question time! Can you find all the schools and parks in New York City that are within 50 meters of each other?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unions!</title>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/12/</link>
+      <pubDate>Sat, 11 Jul 2015 16:35:50 +0800</pubDate>
+      
       <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/12/</guid>
-      <description>&lt;p&gt;Can you find all the schools and parks in New York City that are within 50 meters of each other?&lt;/p&gt;
+      <description>&lt;p&gt;Awesome! We now have a decent map of where CARTO is. We have a chain of queries using different search area methods. There are three outputs -the cafes, CARTO Brooklyn, and Bushwick Avenue.
+Now we&amp;rsquo;re going to learn how to group statements together.
+A &lt;strong&gt;union&lt;/strong&gt; allows you to group the results of several queries.
+&lt;code&gt;(statement_1; statement_2; …) -&amp;gt;.result_set;&lt;/code&gt; and is written as a pair of parentheses. Inside the union, any sequence of statements can be placed.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s leave Sally because we think she can find her way to CARTO now. Let&amp;rsquo;s build a query to look for bicycle rental nodes in both Boston and New York.&lt;/p&gt;
 </description>
     </item>
     
@@ -35,9 +60,9 @@
       <pubDate>Sat, 11 Jul 2015 16:35:50 +0800</pubDate>
       
       <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/11/</guid>
-      <description>&lt;p&gt;So there are quite a few Bushwick Avenues in the world. It looks like there&amp;rsquo;s at least three in Long Island and even one in New Jersey. Let&amp;rsquo;s limit the search area to just New York City. Areas are kind of funny in OSM. You can read more about it here: &lt;a href=&#34;http://michellemho.github.io/learnoverpass/en/docs/filters/area/&#34;&gt;http://michellemho.github.io/learnoverpass/en/docs/filters/area/&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;So there are quite a few Bushwick Avenues in the world. It looks like there&amp;rsquo;s at least three in Long Island and even one in New Jersey. Let&amp;rsquo;s limit the search area to just New York City. Areas are kind of funny in OSM. You can read more about it &lt;a href=&#34;http://michellemho.github.io/learnoverpass/en/docs/filters/area/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;For now, we&amp;rsquo;re going to limit the area search not with a bounding box or an &amp;ldquo;around&amp;rdquo; filter, but with an area filter. First, we need to find areas with the name &amp;ldquo;New York City&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve learned limit the search search  with a bounding box and an &amp;ldquo;around&amp;rdquo; filter already, but now we will use an area filter. First, we need to find areas with the name &amp;ldquo;New York City&amp;rdquo;.&lt;/p&gt;
 </description>
     </item>
     
@@ -166,90 +191,6 @@
 
 &lt;p&gt;The world map below shows the results of your query. You can also toggle the raw data view by clicking the Data button. Right now, the map contains nothing, because our statement is incomplete &amp;ndash; we are asking for a node, but the API doesnât know which node! In fact, there were exactly 3,772,704,127 nodes in OSM when I checked this week at
 &lt;a href=&#34;http://www.openstreetmap.org/stats/data_stats.html&#34;&gt;OSM Stats&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Union</title>
-      <link>//michellemho.github.io/learnoverpass/en/docs/block-queries/union/</link>
-      <pubDate>Thu, 07 May 2015 11:09:35 +0000</pubDate>
-      
-      <guid>//michellemho.github.io/learnoverpass/en/docs/block-queries/union/</guid>
-      <description>&lt;p&gt;The union block statement is written as a pair of parentheses. Inside the union, any sequence of statements can be placed, including nested union and foreach statements.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;(statement_1; statement_2; …)[-&amp;gt;.result_set];
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;It takes no input set. It produces a result set. Its result set is the union of the result sets of all sub-statements, regardless of whether a sub-statement has a redirected result set or not.&lt;/p&gt;
-
-&lt;p&gt;Example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;(node[name=&amp;quot;Foo&amp;quot;];way[name=&amp;quot;Foo&amp;quot;];);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This collects in the first statement all nodes that have a name tag &amp;ldquo;Foo&amp;rdquo; and in the second statement all ways that have a name tag &amp;ldquo;Foo&amp;rdquo;. After the union statement, the result set is the union of the result sets of both statements.&lt;/p&gt;
-
-&lt;p&gt;The result set of the union statement can be redirected with the usual postfix notation:&lt;/p&gt;
-
-&lt;p&gt;Example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;(node[name=&amp;quot;Foo&amp;quot;];way[name=&amp;quot;Foo&amp;quot;];)-&amp;gt;.a;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Same as the preceding example, but the result is written into the variable a.&lt;/p&gt;
-
-&lt;p&gt;Note: foreach and print statements cannot be subelement of element union.&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;docs-repl&#34;&gt;  &lt;textarea&gt;
-(
-node
-  [amenity=drinking_water]
-  (47.06,15.42,47.09,15.48);
-node
-  [tourism=hotel]
-  (47.06,15.42,47.09,15.48);
-);
-out;
-&lt;/textarea&gt;&lt;div class=&#34;docs-repl-result&#34;&gt;  &lt;iframe src=&#34;https://overpass-turbo.eu/master/map.html?Q=%0a%28%0anode%0a%20%20%5bamenity%3ddrinking_water%5d%0a%20%20%2847.06%2c15.42%2c47.09%2c15.48%29%3b%0anode%0a%20%20%5btourism%3dhotel%5d%0a%20%20%2847.06%2c15.42%2c47.09%2c15.48%29%3b%0a%29%3b%0aout%3b%0a&#34;  seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;100%;&#34;&gt;&lt;/iframe&gt;&lt;textarea&gt;&lt;/textarea&gt; &lt;a class=&#34;docs-repl-change-output button&#34; href=&#34;#&#34;&gt;Data&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Difference</title>
-      <link>//michellemho.github.io/learnoverpass/en/docs/block-queries/difference/</link>
-      <pubDate>Wed, 06 May 2015 11:09:35 +0000</pubDate>
-      
-      <guid>//michellemho.github.io/learnoverpass/en/docs/block-queries/difference/</guid>
-      <description>&lt;p&gt;The difference block statement is written as a pair of parentheses. Inside the difference statement, exactly two statements must be placed, and between them a minus sign.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;(statement_1; - statement_2;)[-&amp;gt;.result_set];
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;It takes no input set. It produces a result set. Its result set contains all elements that are result of the first sub-statement and not contained in the result of the second sub-statement.&lt;/p&gt;
-
-&lt;p&gt;Example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;(node[name=&amp;quot;Foo&amp;quot;]; - node(50.0,7.0,51.0,8.0););
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This collects all nodes that have a name tag &amp;ldquo;Foo&amp;rdquo; but are not inside the given bounding box.&lt;/p&gt;
-
-&lt;p&gt;The result set of the difference statement can be redirected with the usual postfix notation:&lt;/p&gt;
-
-&lt;p&gt;Example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;(node[name=&amp;quot;Foo&amp;quot;]; - node(50.0,7.0,51.0,8.0);)-&amp;gt;.a;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Same as the preceding example, but the result is written into the variable a.&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;docs-repl&#34;&gt;  &lt;textarea&gt;
-(
-node[amenity]( 47.06, 15.435,  47.07,  15.44);
--node[amenity](47.064, 15.435, 47.066, 15.44);
-);
-out;
-&lt;/textarea&gt;&lt;div class=&#34;docs-repl-result&#34;&gt;  &lt;iframe src=&#34;https://overpass-turbo.eu/master/map.html?Q=%0a%28%0anode%5bamenity%5d%28%2047.06%2c%2015.435%2c%20%2047.07%2c%20%2015.44%29%3b%0a-node%5bamenity%5d%2847.064%2c%2015.435%2c%2047.066%2c%2015.44%29%3b%0a%29%3b%0aout%3b%0a&#34;  seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;100%;&#34;&gt;&lt;/iframe&gt;&lt;textarea&gt;&lt;/textarea&gt; &lt;a class=&#34;docs-repl-change-output button&#34; href=&#34;#&#34;&gt;Data&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
