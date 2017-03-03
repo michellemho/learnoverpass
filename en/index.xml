@@ -41,15 +41,15 @@
 &lt;li&gt;Query within areas using bounding boxes, &lt;code&gt;(around:n)&lt;/code&gt;, and areas.&lt;/li&gt;
 &lt;li&gt;Filter by &lt;code&gt;[key=value]&lt;/code&gt; tags&lt;/li&gt;
 &lt;li&gt;Use regular expressions to find non-exact tag values&lt;/li&gt;
-&lt;li&gt;Query for nodes, ways, and relations&lt;/li&gt;
+&lt;li&gt;Query for &lt;code&gt;nodes&lt;/code&gt;, &lt;code&gt;ways&lt;/code&gt;, and &lt;code&gt;relations&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Chain together multiple query statements&lt;/li&gt;
-&lt;li&gt;Union multiple query statements&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Union&lt;/strong&gt; multiple query statements&lt;/li&gt;
 &lt;li&gt;Change the output format of results&lt;/li&gt;
-&lt;li&gt;Count results&lt;/li&gt;
-&lt;li&gt;Create a for loop&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Count&lt;/strong&gt; results&lt;/li&gt;
+&lt;li&gt;Create a &lt;code&gt;foreach&lt;/code&gt; loop&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Wow. That was a lot. Challenge Question time! Can you find all the schools and parks in New York City that are within 50 meters of each other?&lt;/p&gt;
+&lt;p&gt;Challenge Question time! Can you find all the schools and parks in New York City that are within 50 meters of each other?&lt;/p&gt;
 </description>
     </item>
     
