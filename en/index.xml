@@ -6,36 +6,89 @@
     <description>Recent content in Ens on LearnOverpass</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2015 16:35:50 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2015 16:35:50 +0800</lastBuildDate>
     <atom:link href="//michellemho.github.io/learnoverpass/en/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>That&#39;s all for now!</title>
-      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/15/</link>
-      <pubDate>Thu, 16 Jul 2015 16:35:50 +0800</pubDate>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/17/</link>
+      <pubDate>Fri, 17 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/15/</guid>
-      <description>&lt;p&gt;Great work! That&amp;rsquo;s all for now. Check back again later!&lt;/p&gt;
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/17/</guid>
+      <description>&lt;p&gt;Great work! That&amp;rsquo;s all for now. Check back again later and thanks for coming!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Challenge Question #2</title>
-      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/14/</link>
-      <pubDate>Mon, 13 Jul 2015 16:35:50 +0800</pubDate>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/16/</link>
+      <pubDate>Thu, 16 Jul 2015 16:35:50 +0800</pubDate>
       
-      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/14/</guid>
-      <description>&lt;p&gt;This one is hard. It&amp;rsquo;s going to use a &lt;code&gt;foreach&lt;/code&gt; loop. Can you count how many museums there are in New York City per borough?&lt;/p&gt;
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/16/</guid>
+      <description>&lt;p&gt;Great work. Here&amp;rsquo;s a last one. Can you count how many museums there are in New York City per borough?&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Challenge Question #1</title>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/15/</link>
+      <pubDate>Wed, 15 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/15/</guid>
+      <description>&lt;p&gt;Wow! That was great work so far. Let&amp;rsquo;s recap what we&amp;rsquo;ve learned:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Query within areas using bounding boxes, &lt;code&gt;(around:n)&lt;/code&gt;, and areas.&lt;/li&gt;
+&lt;li&gt;Filter by &lt;code&gt;[key=value]&lt;/code&gt; tags&lt;/li&gt;
+&lt;li&gt;Use regular expressions to find non-exact tag values&lt;/li&gt;
+&lt;li&gt;Query for nodes, ways, and relations&lt;/li&gt;
+&lt;li&gt;Chain together multiple query statements&lt;/li&gt;
+&lt;li&gt;Union multiple query statements&lt;/li&gt;
+&lt;li&gt;Change the output format of results&lt;/li&gt;
+&lt;li&gt;Count results&lt;/li&gt;
+&lt;li&gt;Create a for loop&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Wow. That was a lot. Challenge Question time! Can you find all the schools and parks in New York City that are within 50 meters of each other?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Foreach Loops</title>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/14/</link>
+      <pubDate>Tue, 14 Jul 2015 17:35:50 +0800</pubDate>
+      
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/14/</guid>
+      <description>&lt;p&gt;Wonderful! You found 471 bikeshares in Boston and New York City. Now, hold on to your hats, because we&amp;rsquo;re going to introduce a whole bunch of concepts here. We&amp;rsquo;re going to count the number of Citi Bike stations in each New York City county. For this, we&amp;rsquo;ll need to use a new function &lt;code&gt;map_to_area&lt;/code&gt;, look for relations, and create a &lt;code&gt;foreach&lt;/code&gt; loop. For good measure, we&amp;rsquo;ll also output the results as a csv!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Counting</title>
       <link>//michellemho.github.io/learnoverpass/en/exercises/intro/13/</link>
-      <pubDate>Sun, 12 Jul 2015 16:35:50 +0800</pubDate>
+      <pubDate>Mon, 13 Jul 2015 12:35:50 +0800</pubDate>
       
       <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/13/</guid>
-      <description>&lt;p&gt;Challenge Question time! Can you find all the schools and parks in New York City that are within 50 meters of each other?&lt;/p&gt;
+      <description>&lt;p&gt;Okay&amp;ndash; we found all the bike shares that are Citi Bike or Hubway in Boston and New York City. You&amp;rsquo;ll notice that some bike stations are missing. Obviously, the new stations that have been installed recently haven&amp;rsquo;t been added yet, or they may have been tagged differently. Feel free to check out &lt;code&gt;out meta&lt;/code&gt; to see when this dataset was last updated.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unions!</title>
+      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/12/</link>
+      <pubDate>Sun, 12 Jul 2015 16:35:50 +0800</pubDate>
+      
+      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/12/</guid>
+      <description>&lt;p&gt;Awesome! We now have a decent map of where CARTO is. We have a chain of queries using different search area methods. There are three outputs -the cafes, CARTO Brooklyn, and Bushwick Avenue.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s leave Sally because we think she can find her way to CARTO now. Let&amp;rsquo;s build a query to look for bicycle rental nodes in both Boston and New York.&lt;/p&gt;
+
+&lt;p&gt;Now we&amp;rsquo;re going to learn how to group statements together.
+A &lt;strong&gt;union&lt;/strong&gt; allows you to group the results of several queries.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;(statement_1; statement_2; …)-&amp;gt;.result_set;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;and is written as a pair of parentheses. Inside the union, any sequence of statements can be placed.&lt;/p&gt;
 </description>
     </item>
     
@@ -48,21 +101,6 @@
       <description>&lt;p&gt;So there are quite a few Bushwick Avenues in the world. It looks like there&amp;rsquo;s at least three in Long Island and even one in New Jersey. Let&amp;rsquo;s limit the search area to just New York City. Areas are kind of funny in OSM. You can read more about it &lt;a href=&#34;http://michellemho.github.io/learnoverpass/en/docs/filters/area/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;ve learned limit the search search  with a bounding box and an &amp;ldquo;around&amp;rdquo; filter already, but now we will use an area filter. First, we need to find areas with the name &amp;ldquo;New York City&amp;rdquo;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Unions!</title>
-      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/12/</link>
-      <pubDate>Sat, 11 Jul 2015 16:35:50 +0800</pubDate>
-      
-      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/12/</guid>
-      <description>&lt;p&gt;Awesome! We now have a decent map of where CARTO is. We have a chain of queries using different search area methods. There are three outputs -the cafes, CARTO Brooklyn, and Bushwick Avenue.
-Now we&amp;rsquo;re going to learn how to group statements together.
-A &lt;strong&gt;union&lt;/strong&gt; allows you to group the results of several queries.
-&lt;code&gt;(statement_1; statement_2; …) -&amp;gt;.result_set;&lt;/code&gt; and is written as a pair of parentheses. Inside the union, any sequence of statements can be placed.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s leave Sally because we think she can find her way to CARTO now. Let&amp;rsquo;s build a query to look for bicycle rental nodes in both Boston and New York.&lt;/p&gt;
 </description>
     </item>
     
@@ -166,31 +204,6 @@ A &lt;strong&gt;union&lt;/strong&gt; allows you to group the results of several 
       <description>&lt;p&gt;Okay! We found a few subway stations that Sally might be at. And Sally just remembered that the name of the subway stop started with &amp;ldquo;Mo&amp;hellip;&amp;rdquo; but she can&amp;rsquo;t remember the rest. Oh, Sally! Can we use this information to help figure out which station Sally is at? Let&amp;rsquo;s find names of nodes that start with the letters &amp;ldquo;Mo&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;Overpass supports a form of &lt;strong&gt;regular expressions&lt;/strong&gt; that can help us search for non-exact tag values. Let&amp;rsquo;s use &lt;code&gt;~&lt;/code&gt; instead of &lt;code&gt;=&lt;/code&gt; in a filter statement.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Signal in the Nodes</title>
-      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/2/</link>
-      <pubDate>Thu, 02 Jul 2015 16:35:50 +0800</pubDate>
-      
-      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/2/</guid>
-      <description>&lt;p&gt;Whoa! That&amp;rsquo;s a lot of nodes. Which one is Sally at? She now says she just exited a subway station&amp;hellip; Click around on the nodes. You&amp;rsquo;ll see that all of them have coordinates, but some have additional information in &lt;strong&gt;tags&lt;/strong&gt;. Let&amp;rsquo;s filter by tags to figure out which subway station Sally might be at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Let&#39;s Go to CartoCamp!</title>
-      <link>//michellemho.github.io/learnoverpass/en/exercises/intro/1/</link>
-      <pubDate>Wed, 01 Jul 2015 16:35:50 +0800</pubDate>
-      
-      <guid>//michellemho.github.io/learnoverpass/en/exercises/intro/1/</guid>
-      <description>&lt;p&gt;Welcome to CartoCamp! Today we&amp;rsquo;re going to learn how to use OpenStreetMap&amp;rsquo;s &lt;a href=&#34;http://wiki.openstreetmap.org/wiki/Overpass_API&#34;&gt;Overpass API&lt;/a&gt;. Overpass is an awesome tool for serving up custom selected parts of OSM. This CartoCamp workshop is an introduction to the query language of Overpass and how you can use it to get shapes for your mapping projects!&lt;/p&gt;
-
-&lt;p&gt;On the right is a text editor where you can type in your query commands. See the statement with the words &lt;code&gt;node&lt;/code&gt; and &lt;code&gt;out&lt;/code&gt;? That&amp;rsquo;s a query statement which asks the API to output a single point of interest (in OSM-speak, a point is a node).&lt;/p&gt;
-
-&lt;p&gt;The world map below shows the results of your query. You can also toggle the raw data view by clicking the Data button. Right now, the map contains nothing, because our statement is incomplete &amp;ndash; we are asking for a node, but the API doesnât know which node! In fact, there were exactly 3,772,704,127 nodes in OSM when I checked this week at
-&lt;a href=&#34;http://www.openstreetmap.org/stats/data_stats.html&#34;&gt;OSM Stats&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

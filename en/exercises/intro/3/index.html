@@ -4,7 +4,7 @@
 </div><div class="exercise-lesson-instruction"><div class="exercise-lesson-label"> <span>Instructions</span></div> <ol>
 <li>Add another tag filter right after the one for subway stations. Remember, tag filters are in brackets.</li>
 <li>We&rsquo;re looking for the <code>name</code> of a subway station, so the tag key will be <code>name</code> and we should use <code>^</code> because we&rsquo;re looking for a substring at the beginning</li>
-<li>The tag should look like <code>[name~'^Mo']</code>. This query is case-sensitive, so be careful with the capitalization! Though you could use regular expressions to make the query case insensitive&hellip;</li>
+<li>The tag should look like <code>[name~'^Mo']</code>. This query is case-sensitive, so be careful with the capitalization! Though you could use regular expressions to make the query case insensitive&hellip; Read more about Overpass flavor of regex <a href="http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Value_matches_regular_expression_.28.7E.2C_.21.7E.29">here</a>.</li>
 </ol>
 </div></div></div><div class="docs-repl exercise-main"><div class="editor-cover"></div> <textarea>node(40.69734,-73.947387,40.708564,-73.931457)[railway=station];
 out;

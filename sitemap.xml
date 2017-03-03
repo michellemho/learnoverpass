@@ -3,28 +3,38 @@
   
   <url>
     <loc>//michellemho.github.io/learnoverpass/</loc>
-    <lastmod>2015-07-16T16:35:50+08:00</lastmod>
+    <lastmod>2015-07-17T16:35:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//michellemho.github.io/learnoverpass/en/exercises/intro/15/</loc>
+    <loc>//michellemho.github.io/learnoverpass/en/exercises/intro/17/</loc>
+    <lastmod>2015-07-17T16:35:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//michellemho.github.io/learnoverpass/en/exercises/intro/16/</loc>
     <lastmod>2015-07-16T16:35:50+08:00</lastmod>
   </url>
   
   <url>
+    <loc>//michellemho.github.io/learnoverpass/en/exercises/intro/15/</loc>
+    <lastmod>2015-07-15T16:35:50+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//michellemho.github.io/learnoverpass/en/exercises/intro/14/</loc>
-    <lastmod>2015-07-13T16:35:50+08:00</lastmod>
+    <lastmod>2015-07-14T17:35:50+08:00</lastmod>
   </url>
   
   <url>
     <loc>//michellemho.github.io/learnoverpass/en/exercises/intro/13/</loc>
-    <lastmod>2015-07-12T16:35:50+08:00</lastmod>
+    <lastmod>2015-07-13T12:35:50+08:00</lastmod>
   </url>
   
   <url>
     <loc>//michellemho.github.io/learnoverpass/en/exercises/intro/12/</loc>
-    <lastmod>2015-07-11T16:35:50+08:00</lastmod>
+    <lastmod>2015-07-12T16:35:50+08:00</lastmod>
   </url>
   
   <url>
@@ -93,12 +103,12 @@
   </url>
   
   <url>
-    <loc>//michellemho.github.io/learnoverpass/en/docs/block-queries/difference/</loc>
+    <loc>//michellemho.github.io/learnoverpass/en/docs/block-queries/foreach/</loc>
     <lastmod>2015-05-06T11:09:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//michellemho.github.io/learnoverpass/en/docs/block-queries/foreach/</loc>
+    <loc>//michellemho.github.io/learnoverpass/en/docs/block-queries/difference/</loc>
     <lastmod>2015-05-06T11:09:35+00:00</lastmod>
   </url>
   
@@ -117,11 +127,11 @@
   </url>
   
   <url>
-    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/area/</loc>
+    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/around/</loc>
   </url>
   
   <url>
-    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/around/</loc>
+    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/area/</loc>
   </url>
   
   <url>
@@ -129,11 +139,11 @@
   </url>
   
   <url>
-    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/element-id/</loc>
+    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/changed/</loc>
   </url>
   
   <url>
-    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/changed/</loc>
+    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/element-id/</loc>
   </url>
   
   <url>
@@ -149,7 +159,7 @@
   </url>
   
   <url>
-    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/recurse/</loc>
+    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/polygon/</loc>
   </url>
   
   <url>
@@ -157,7 +167,11 @@
   </url>
   
   <url>
-    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/polygon/</loc>
+    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/tag/</loc>
+  </url>
+  
+  <url>
+    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/recurse/</loc>
   </url>
   
   <url>
@@ -166,10 +180,6 @@
   
   <url>
     <loc>//michellemho.github.io/learnoverpass/en/docs/standalone-queries/recurse-up/</loc>
-  </url>
-  
-  <url>
-    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/tag/</loc>
   </url>
   
 </urlset>

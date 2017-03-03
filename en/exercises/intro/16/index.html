@@ -1,0 +1,22 @@
+<!DOCTYPE html><html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"><head><link href="https://gmpg.org/xfn/11" rel="profile"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"><title>Challenge Question #2</title><link rel="stylesheet" href="//michellemho.github.io/learnoverpass//css/main.css"> <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png"><link href="/favicon.png" rel="icon"><link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'><link href="" rel="alternate" type="application/rss+xml" title="LearnOverpass &middot; "/><meta name="description" content=""><meta name="keywords" content=""> </head><body><div class="exercise-contrib"><div> <a href="https://github.com/osmlab/learnoverpass/blob/master/CONTRIB.md">Contribute to project</a></div></div> <div class="menu-bar"><h1> <a href="//michellemho.github.io/learnoverpass//">LearnOverpass</a></h1></div><div class="exercise-container"><div class="exercise-lesson"><div class="exercise-lesson-bar"><div class="line">Intro</div></div><div class="exercise-lesson-inner"><div class="exercise-lesson-article"><h2> Challenge Question #2  <a class="docs-improve" href="https://github.com/osmlab/learnoverpass/edit/master/content/en/exercises/intro/16.md">Improve page</a></h2> <p>Great work. Here&rsquo;s a last one. Can you count how many museums there are in New York City per borough?</p>
+</div><div class="exercise-lesson-instruction"><div class="exercise-lesson-label"> <span>Instructions</span></div> <ol>
+<li>Museums are tagged as <code>[&quot;tourism&quot;=&quot;museum&quot;]</code></li>
+</ol>
+</div></div></div><div class="docs-repl exercise-main"><div class="editor-cover"></div> <textarea>[out:csv(::&#34;type&#34;,::&#34;id&#34;, name, admin_level,::&#34;count&#34;)];
+
+foreach-&gt;.d(
+
+
+out count;
+);
+</textarea><div class="exercise-fail-msg"><div class="message"> <span class="warning">That doesn't seem right!</span> <span class="hint">Use a foreach loop!</span></div></div><div class="exercise-action-bar"><div class="exercise-action-bar-inner winner-bar"><div> <span>Awesome Work!</span> <a href="//michellemho.github.io/learnoverpass/en/exercises/intro/17/" class="exercise-action-next">Go to Next Lesson</a></div></div><div class="exercise-action-bar-inner"><div> <a href="#" class="exercise-action-run">Run Query</a> <a href="#" class="exercise-action-reset">Reset Code</a></div></div></div><div class="docs-repl-result output"><iframe src="https://overpass-turbo.eu/master/map.html" seamless="seamless" frameBorder="0"></iframe><textarea></textarea> <a class="docs-repl-change-output button" href="#">Data</a></div></div><div class="exercise-answer">[out:csv(::&#34;type&#34;,::&#34;id&#34;, name, admin_level,::&#34;count&#34;)];
+area[name=&#34;New York City&#34;];
+ relation(area)[admin_level=6];
+ map_to_area;
+ foreach-&gt;.d(
+   (node(area.d)[&#34;tourism&#34;=&#34;museum&#34;];
+    way(area.d)[&#34;tourism&#34;=&#34;museum&#34;];
+    relation(area.d)[&#34;tourism&#34;=&#34;museum&#34;];);
+   out count;
+ );
+</div><div class="exercise-regex"></div></div> <script src="//michellemho.github.io/learnoverpass//js/vendor.bundle.js"></script> <script src="//michellemho.github.io/learnoverpass//js/exercise.bundle.js"></script> </body></html>
