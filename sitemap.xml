@@ -147,15 +147,11 @@
   </url>
   
   <url>
-    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/newer/</loc>
-  </url>
-  
-  <url>
     <loc>//michellemho.github.io/learnoverpass/en/docs/filters/input-set/</loc>
   </url>
   
   <url>
-    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/recurse/</loc>
+    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/newer/</loc>
   </url>
   
   <url>
@@ -171,15 +167,19 @@
   </url>
   
   <url>
+    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/tag/</loc>
+  </url>
+  
+  <url>
+    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/recurse/</loc>
+  </url>
+  
+  <url>
     <loc>//michellemho.github.io/learnoverpass/en/docs/standalone-queries/item/</loc>
   </url>
   
   <url>
     <loc>//michellemho.github.io/learnoverpass/en/docs/standalone-queries/recurse-up/</loc>
-  </url>
-  
-  <url>
-    <loc>//michellemho.github.io/learnoverpass/en/docs/filters/tag/</loc>
   </url>
   
 </urlset>

@@ -84,11 +84,11 @@
 &lt;p&gt;Let&amp;rsquo;s leave Sally because we think she can find her way to CARTO now. I&amp;rsquo;ve cleared the map. Let&amp;rsquo;s build a query to look for bicycle rental nodes in both Boston and New York.&lt;/p&gt;
 
 &lt;p&gt;Now we&amp;rsquo;re going to learn how to group statements together.
-A &lt;strong&gt;union&lt;/strong&gt; allows you to group the results of several queries.&lt;/p&gt;
+A &lt;strong&gt;union&lt;/strong&gt; allows you to group the results of several queries and is written as a pair of parentheses.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;(statement_1; statement_2; …)-&amp;gt;.result_set;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;and is written as a pair of parentheses. Inside the union, any sequence of statements can be placed.&lt;/p&gt;
+&lt;p&gt;Inside the union, any sequence of statements can be placed.&lt;/p&gt;
 </description>
     </item>
     
